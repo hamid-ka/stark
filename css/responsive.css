@@ -1,0 +1,58 @@
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 768px) {
+  .items ul {
+    display: none;
+  }
+
+  .icon-menu {
+    display: block;
+  }
+
+  .large-navbar {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+
+  .small-navbar {
+    display: block;
+  }
+
+  .text-main-page h1 {
+    font-size: 50px;
+  }
+  .text-main-page-hide h1 {
+    font-size: 50px;
+  }
+
+  .container-service p {
+    width: 80%;
+  }
+
+  .service-box-wrap {
+    width: 270px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .text-main-page h1 {
+    font-size: 40px;
+  }
+  .text-main-page-hide h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .text-main-page h1 {
+    font-size: 30px;
+  }
+  .text-main-page-hide h1 {
+    font-size: 30px;
+  }
+}
